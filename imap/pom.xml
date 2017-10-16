@@ -99,7 +99,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>io.github.mxns.Main</mainClass>
+                    <mainClass>io.github.mxns.lab.hazelcast.Main</mainClass>
                 </configuration>
             </plugin>
         </plugins>

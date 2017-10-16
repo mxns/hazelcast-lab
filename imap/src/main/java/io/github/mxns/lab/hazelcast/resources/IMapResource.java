@@ -1,4 +1,4 @@
-package io.github.mxns;
+package io.github.mxns.lab.hazelcast.resources;
 
 import com.hazelcast.core.Hazelcast;
 import com.hazelcast.core.IMap;

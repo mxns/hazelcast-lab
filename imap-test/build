@@ -1,7 +1,9 @@
 #!/bin/bash
 
-cd ${DEV_HOME}/hazelcast-lab
+cd "${DEV_HOME}/hazelcast-lab"
+docker-compose --file "imap-test/scenarios/${SCENARIO}/cluster.yml" down
 mvn clean install
 docker build -t imap imap
 docker build -t imap-node-1 imap-test/scenarios/multi-node/imap-node-1
 docker build -t imap-node-2 imap-test/scenarios/multi-node/imap-node-2
+docker-compose --file "imap-test/scenarios/${SCENARIO}/cluster.yml" up

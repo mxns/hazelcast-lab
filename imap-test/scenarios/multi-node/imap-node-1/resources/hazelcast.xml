@@ -38,16 +38,16 @@
         </outbound-ports>
         <join>
             <tcp-ip enabled="true">
-                <interface>172.16.238.11</interface>
+                <interface>172.16.239.11</interface>
                 <member-list>
-                    <member>172.16.238.12</member>
+                    <member>172.16.239.12</member>
                 </member-list>
             </tcp-ip>
             <multicast enabled="false"/>
             <aws enabled="false"/>
         </join>
         <interfaces enabled="true">
-            <interface>172.16.238.11</interface>
+            <interface>172.16.239.11</interface>
         </interfaces>
     </network>
 </hazelcast>
