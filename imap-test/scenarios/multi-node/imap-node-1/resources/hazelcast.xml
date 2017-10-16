@@ -2,10 +2,10 @@
 <hazelcast
         xsi:schemaLocation="http://www.hazelcast.com/schema/config hazelcast-config-3.6.xsd"
         xmlns="http://www.hazelcast.com/schema/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <instance-name>utds</instance-name>
+    <instance-name>hazelcast-lab</instance-name>
     <group>
-        <name>utds</name>
-        <password>utds</password>
+        <name>hazelcast-lab</name>
+        <password>hazelcast-lab</password>
     </group>
     <properties>
         <property name="hazelcast.phone.home.enabled">false</property>

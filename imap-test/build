@@ -1,6 +1,6 @@
 #!/bin/bash
 
-    cd ${DEV_HOME}/hazelcast-lab
+cd ${DEV_HOME}/hazelcast-lab
 mvn clean install
 docker build -t imap imap
 docker build -t imap-node-1 imap-test/scenarios/multi-node/imap-node-1

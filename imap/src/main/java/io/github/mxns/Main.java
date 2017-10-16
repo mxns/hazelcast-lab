@@ -11,7 +11,7 @@ import java.io.InputStream;
 import java.net.URI;
 
 public class Main {
-    static final String BASE_URI = "http://localhost:8080/maps/";
+    static final String BASE_URI = "http://0.0.0.0:8080/maps/";
 
     public static void main(String[] args) throws IOException {
         InputStream url = Main.class.getClassLoader().getResourceAsStream("hazelcast.xml");
