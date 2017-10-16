@@ -1,0 +1,11 @@
+version: "2"
+
+services:
+
+  hz1:
+    image: imap
+    container_name: imap
+    hostname: imap
+    ports:
+      - 18080:8080/tcp
+    entrypoint: java -cp "resources:lib/*" io.github.mxns.lab.hazelcast.Main 127.0.0.1
